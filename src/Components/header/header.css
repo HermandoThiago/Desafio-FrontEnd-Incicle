@@ -1,0 +1,25 @@
+header{
+    background-color: white;
+    text-align: left;
+    padding: 4px 25px;
+    box-shadow: -5px 5px 10px #E1E2E4;
+}
+
+header img{
+    max-width: 100%;
+    width: 3%;
+    height: 10%;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    header{
+        text-align: center;
+    }
+
+    header img{
+        width: 12%;
+    }
+
+}

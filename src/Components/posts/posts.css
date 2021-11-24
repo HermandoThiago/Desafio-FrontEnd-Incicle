@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+.mural{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.postagem{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: -5px 5px 10px #E1E2E4;
+    margin-top: 10px;
+    height: 90px;
+}
+
+.imagem{
+    width: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem img{
+    max-width: 100%;
+    width: 80px;
+    height: 75px;
+}
+
+.text_post{
+    padding: 2px;
+    width: 80%;
+    color: #707070;
+}
+
+.text_post h3{
+    margin-top: 2px;
+    margin-bottom: -5px;
+    font-weight: bold;
+}
+
+.text_post span{
+    font-size: 0.55rem;
+}   
+
+.text_post .tipo{
+    background-color: blue;
+    color: white;
+    padding: 1px 3px;
+    margin-right:4px;
+    font-weight: bold;
+}
+
+.text_post .event{
+    background-color: #ee8686;
+}
+
+.text_post p{
+    width: 80%;
+    margin-top: 2px;
+    margin-bottom: -20px;
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+    color: rgb(65, 64, 64);
+    font-size: 1.4rem;
+}
+
+.point{
+    cursor: pointer;
+    background-color: rgb(213, 212, 212);
+    border-radius: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .postagem{
+        width: 45%;
+        height: 120%;
+        margin: 10px auto;
+    }
+
+    .postagem .imagem{
+        width: 100%;
+    }
+
+    .postagem .imagem img{
+        width: 100%;
+        height: 100%;   
+    }
+
+    .postagem .text_post{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .text_post p{
+        width: 80%;
+        margin-top: 0px;
+        margin-bottom: 0;
+        font-size: 0.9rem;
+        font-weight: lighter;
+    }
+
+    .point{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .postagem{
+        margin: 10px auto;
+    }
+
+    .text_post{
+        padding-left: 10px;
+    }
+
+}
