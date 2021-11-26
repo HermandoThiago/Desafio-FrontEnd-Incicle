@@ -125,6 +125,10 @@
 
 @media screen and (max-width: 1024px) {
     
+    .mural{
+        width: 100%;
+    }
+
     .postagem{
         margin: 10px auto;
     }

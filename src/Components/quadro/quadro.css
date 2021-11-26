@@ -53,11 +53,24 @@
 
 
 @media screen and (max-width: 768px) {
-    
+
+    .gestao{
+        width: 100% !important;
+    }
+
     .img{
         margin: 5px 8px;
         width: 20%;
         height: 70px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .gestao{
+        height: 50%;
+        width: 50%;
     }
 
 }

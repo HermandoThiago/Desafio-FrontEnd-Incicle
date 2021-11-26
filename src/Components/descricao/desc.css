@@ -25,3 +25,21 @@ button{
     padding: 10px 20PX;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .quadro{
+        width: 100% !important;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .quadro{
+        height: 300px;
+        width: 50%;
+    }
+
+}

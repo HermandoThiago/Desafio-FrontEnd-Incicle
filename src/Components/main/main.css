@@ -40,6 +40,10 @@ main{
 }
 
 .info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 25%;
     height: 100%;
     padding: 12px;
@@ -105,6 +109,18 @@ select{
 
     .posts .botoes{
         margin: 10px 0px;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+
+    .posts{
+        width: 100%;
+    }
+
+    .info{
+        width: 100%;
     }
 
 }
